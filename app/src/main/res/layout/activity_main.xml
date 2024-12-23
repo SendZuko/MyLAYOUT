@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#D4D8DD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/cxz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/_431"
+        android:textColor="#1A2D42"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+
+    <LinearLayout
+        android:layout_marginBottom="90dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="33dp"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:background="@drawable/shape_do_leyout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:layout_width="169dp"
+                android:layout_height="match_parent"
+                android:text="@string/Until_the_next_bet"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#1A2D42"
+                android:typeface="serif"/>
+            <TextView
+                android:textStyle="bold|italic"
+                android:id="@+id/suma"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="залишилось"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#1A2D42"
+                android:typeface="serif"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/scheduleButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_button"
+        android:text="@string/layout"
+        android:textColor="#1A2D42"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

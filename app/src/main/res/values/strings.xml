@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyLAYOUT</string>
+    <string name="_431">Розклад КІСІТ 431</string>
+    <string name="Do_nastup">До наступной пари</string>
+    <string name="layout">Розклад</string>
+    <string name="Until_the_next_bet">До наступної пари:</string>
+</resources>

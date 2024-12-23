@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4D8DD"
+    tools:context=".ScheduleActivity">
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/backButton">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Понеділок -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Понеділок"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15:45 - Монтаж персональних комп'ютерів та мереж (Артюхов В.О.)\n17:15 - Адміністрування технічної підтримки інформаційних систем (Дакова Л.В.)\n18:45 - Адміністрування технічної підтримки інформаційних систем (Дакова Л.В.)"
+                android:textSize="16sp"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Вівторок -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вівторок"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15:45 - Надійність, діагностика та експлуатація комп'ютерних систем та мереж (Артюхов В.О.)\n17:15 - Захист інформації і безпека персональних комп'ютерів та мереж (Макаренко М.Б.)\n18:45 - Надійність, діагностика та експлуатація комп'ютерних систем та мереж (Артюхов В.О.)"
+                android:textSize="16sp"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Середа -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Середа"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14:00 - Організація власного ІТ-бізнесу (Редзюк Є.В.)\n15:45 - Організація власного ІТ-бізнесу (Редзюк Є.В.)\n17:15 - Надійність, діагностика та експлуатація комп'ютерних систем та мереж (Артюхов В.О.)"
+                android:textSize="16sp"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Четвер -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Четвер"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14:00 - Системи штучного інтелекту (Дербенцев В.Д.)\n15:45 - Системи штучного інтелекту (Дербенцев В.Д.)\n17:15 - Захист інформації і безпека персональних комп'ютерів та мереж (Макаренко М.Б.)"
+                android:textSize="16sp"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="4dp"/>
+
+            <!-- П'ятниця -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="П'ятниця"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:15 - Надійність, діагностика та експлуатація комп'ютерних систем та мереж (Артюхов В.О.)\n14:00 - Сервісне обслуговування програмного забезпечення (Артюхов В.О.)\n15:45 - Монтаж персональних комп'ютерів та мереж (Артюхов В.О.)\n17:15 - Логіка (Біднюк О.С.)"
+                android:textSize="16sp"
+                android:textColor="#1A2D42"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape_button"
+        android:text="Назад"
+        android:textColor="#1A2D42"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
